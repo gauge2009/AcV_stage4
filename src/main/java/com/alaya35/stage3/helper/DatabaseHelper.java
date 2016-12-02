@@ -1,4 +1,4 @@
-package com.alaya35.stage2.helper;
+package com.alaya35.stage3.helper;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -10,8 +10,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 
-import com.alaya35.stage2.util.CollectionUtil;
-import com.alaya35.stage2.util.PropsUtil;
+import com.alaya35.stage3.util.CollectionUtil;
+import com.alaya35.stage3.util.PropsUtil;
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;

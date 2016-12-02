@@ -1,4 +1,4 @@
-package com.alaya35.stage2.controller;
+package com.alaya35.stage3.controller;
 
 /**
  * Created by gauge on 2016/11/25.
@@ -11,8 +11,8 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import com.alaya35.stage2.model.Customer;
-import com.alaya35.stage2.service.CustomerService;
+import com.alaya35.stage3.model.Customer;
+import com.alaya35.stage3.service.CustomerService;
 
 /**
  * 进入 客户列表 界面

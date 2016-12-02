@@ -1,4 +1,4 @@
-package com.alaya35.stage2.controller;
+package com.alaya35.stage3.controller;
 
 /**
  * Created by gauge on 2016/11/25.
@@ -12,13 +12,13 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * 编辑客户
+ * 创建客户
  */
-@WebServlet("/customer_edit")
-public class CustomerEditServlet extends HttpServlet {
+@WebServlet("/customer_create")
+public class CustomerCreateServlet extends HttpServlet {
 
     /**
-     * 进入 编辑客户 界面
+     * 进入 创建客户 界面
      */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -26,11 +26,10 @@ public class CustomerEditServlet extends HttpServlet {
     }
 
     /**
-     * 处理 编辑客户 请求
+     * 处理 创建客户 请求
      */
     @Override
-    protected void doPut(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         // TODO
     }
 }
-
