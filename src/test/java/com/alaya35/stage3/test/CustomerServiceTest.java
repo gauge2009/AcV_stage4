@@ -1,12 +1,12 @@
-package com.alaya35.stage3.test;
+package com.alaya35.stage4.test;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.alaya35.stage3.helper.DatabaseHelper;
-import com.alaya35.stage3.model.Customer;
-import com.alaya35.stage3.service.CustomerService;
+import com.alaya35.stage4.helper.DatabaseHelper;
+import com.alaya35.stage4.model.Customer;
+import com.alaya35.stage4.service.CustomerService;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

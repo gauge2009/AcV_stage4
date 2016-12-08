@@ -1,4 +1,4 @@
-package com.alaya35.stage3.model;
+package com.alaya35.stage4.model;
 
 /**
  * Created by gauge on 2016/11/25.
